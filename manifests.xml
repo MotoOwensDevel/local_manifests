@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ 
+<!-- remote names -->
+<remote name="owens" fetch="https://github.com/MotoOwensDevel" />
+ 
+ 
+<!-- owens shit -->
+<project path="kernel/motorola/msm8937" name="android_kernel_motorola_msm8937" remote="owens" revision="cm-14.1" /> 
+<project path="device/motorola/owens" name="android_device_motorola_owens" remote="owens" revision="cm-14.1" />
+<project path="device/motorola/qcom318-32" name="android_device_motorola_qcom318-32" remote="owens" revision="cm-14.1" />
+<project path="device/motorola/msm8937-common" name="android_device_motorola_msm8937-common" remote="owens" revision="cm-14.1" />
+<project path="vendor/motorola" name="proprietary_vendor_motorola" remote="owens" revision="cm-14.1" />
+ 
+ 
+</manifest>
